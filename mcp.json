@@ -1,10 +1,33 @@
 {
-  "name": "wayx",
-  "ticker": "WAYX",
-  "category": "CrossChain_Bridge",
+  "name": "jesus-ai-mcp",
+  "version": "1.0.0",
+  "description": "Jesus AI Model Context Protocol Server for Sermon on the Mount Ethics, Radical Forgiveness & Servant Leadership",
   "tools": [
-    { "name": "query_conway_state", "description": "Fetches current cellular automaton lattice" },
-    { "name": "execute_x402_settlement", "description": "Executes HTTP 402 micro-settlement" },
-    { "name": "fetch_quicknode_rpc", "description": "Queries QuickNode multi-chain endpoint" }
+    {
+      "name": "audit_beatitudes_alignment",
+      "description": "Audit decisions and algorithmic outcomes against the Beatitudes, reconciliation, and servant leadership",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "scenario": { "type": "string" },
+          "vulnerable_stakeholder": { "type": "string" },
+          "reconciliation_path": { "type": "string" }
+        },
+        "required": ["scenario", "vulnerable_stakeholder"]
+      }
+    },
+    {
+      "name": "disburse_good_samaritan_aid",
+      "description": "Release zero-leakage micro-escrows directly to grassroots hospices, homeless shelters, and trauma clinics",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "outreach": { "type": "string" },
+          "recipient": { "type": "string" },
+          "amount_wei": { "type": "string" }
+        },
+        "required": ["outreach", "recipient", "amount_wei"]
+      }
+    }
   ]
 }
